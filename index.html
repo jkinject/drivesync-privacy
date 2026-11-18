@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DriveSync – Privacy Policy / 개인정보 처리방침</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif; line-height: 1.65; color: #191c23; background: #f8f9ff; margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 1.7rem; margin-bottom: 0.2em; }
+  h2 { font-size: 1.2rem; margin-top: 2em; border-bottom: 1px solid #c4c6d0; padding-bottom: 4px; }
+  h3 { font-size: 1rem; margin-top: 1.4em; }
+  .meta { color: #44464f; font-size: 0.92rem; }
+  nav a { margin-right: 16px; }
+  a { color: #2257d6; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.94rem; }
+  th, td { border: 1px solid #c4c6d0; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #dce5ff; }
+  hr { border: 0; border-top: 2px solid #c4c6d0; margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#en">English</a><a href="#ko">한국어</a></nav>
+
+<section id="en">
+<h1>DriveSync – Privacy Policy</h1>
+<p class="meta">Effective date: 18 November 2026 · Developer: 이피소프트 (EP Soft) · Contact: <a href="mailto:admin@epcompany.co.kr">admin@epcompany.co.kr</a></p>
+
+<p>DriveSync is an Android app that moves files between your Microsoft OneDrive and your phone. This policy explains what the app accesses, where that data goes, and the choices you have. In short: <strong>your files and your Microsoft account data are never sent to the developer.</strong> The developer does not run any server for this app.</p>
+
+<h2>1. What the app accesses and why</h2>
+<table>
+<tr><th>Data</th><th>Why</th><th>Where it goes</th></tr>
+<tr><td>Microsoft account sign-in (handled by Microsoft's sign-in library). The app receives an access token and your account name/e-mail address.</td><td>To connect to your OneDrive and to show which account is connected.</td><td>Stored only on your phone. The token is sent only to Microsoft (Microsoft Graph) to carry out your requests.</td></tr>
+<tr><td>Your OneDrive content: file and folder names, sizes, dates, thumbnails, file contents, and storage usage.</td><td>To list your files, download them to your phone, upload files from your phone, verify the copy, and delete the original after verification – only when you start a transfer.</td><td>Transferred directly between your phone and Microsoft's servers over HTTPS. Never sent to the developer or to any other party.</td></tr>
+<tr><td>Files in the phone folders you choose with the system folder picker.</td><td>To save files moved from OneDrive, or to upload and then delete the files you asked to move to OneDrive.</td><td>Stay on your phone, or go to your own OneDrive.</td></tr>
+<tr><td>Transfer history (file names, sizes, state, time) and app settings.</td><td>To show progress and history, resume interrupted transfers, and remember your choices.</td><td>Stored only on your phone.</td></tr>
+<tr><td>Purchase status of the Premium upgrade.</td><td>To unlock Premium and restore it on your other devices.</td><td>Handled by Google Play Billing. The developer never receives your payment details.</td></tr>
+</table>
+
+<h2>2. Advertising (Free plan)</h2>
+<p>The Free plan shows ads provided by Google AdMob. To serve and measure ads, Google may collect and process data from your device such as the advertising ID, IP address (which can indicate approximate location), device and app information, and how you interact with ads. This is governed by Google's policies: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<ul>
+<li>Where the law requires it (for example in the EEA, the UK and Switzerland), the app asks for your consent before personalised ads are shown, and you can change your choice any time in <em>Settings → Ad privacy settings</em>.</li>
+<li>You can reset or delete your advertising ID, or opt out of ad personalisation, in your Android settings.</li>
+<li>Premium removes all ads; the advertising SDK is then not used.</li>
+</ul>
+<p>The ads SDK never receives your files, file names, or Microsoft account data.</p>
+
+<h2>3. What the developer does not do</h2>
+<ul>
+<li>No developer-operated server, account system, analytics, or crash-reporting service is used.</li>
+<li>Your files, file names, OneDrive content, and Microsoft account information are not collected, sold, or shared by the developer.</li>
+</ul>
+
+<h2>4. Third parties involved</h2>
+<ul>
+<li><strong>Microsoft</strong> – your OneDrive storage and sign-in (<a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>).</li>
+<li><strong>Google</strong> – Google Play (distribution and billing) and Google AdMob (ads on the Free plan).</li>
+</ul>
+
+<h2>5. Permissions</h2>
+<ul>
+<li><strong>Internet / network state</strong> – to talk to OneDrive and load ads.</li>
+<li><strong>Foreground service (data sync) and notifications</strong> – to keep a transfer you started running and show its progress.</li>
+<li><strong>Advertising ID</strong> – used by the ads SDK on the Free plan.</li>
+<li><strong>Billing</strong> – for the optional Premium purchase.</li>
+<li>The app does not request broad storage access. It can only reach the folders you pick in the system folder picker.</li>
+</ul>
+
+<h2>6. Keeping and deleting data</h2>
+<ul>
+<li>Signing out in the app removes the stored sign-in from your phone.</li>
+<li>Uninstalling the app, or clearing its data in Android settings, deletes the transfer history and settings.</li>
+<li>You can revoke the app's access to your Microsoft account at any time at <a href="https://account.microsoft.com/privacy/app-access">account.microsoft.com/privacy/app-access</a>.</li>
+<li>Files deleted from OneDrive by a transfer go to your OneDrive recycle bin, where Microsoft's retention rules apply. Files deleted from your phone after an upload cannot be restored by the app.</li>
+</ul>
+<p>Because the developer holds none of your data, there is nothing for the developer to delete on request. For questions, write to the contact address above.</p>
+
+<h2>7. Security</h2>
+<p>All communication with Microsoft and Google uses HTTPS. A file's original is deleted only after the copy has been verified (size and hash).</p>
+
+<h2>8. Children</h2>
+<p>The app is not directed to children and is intended for users aged 18 and over.</p>
+
+<h2>9. Changes</h2>
+<p>If this policy changes, the new version will be published on this page with a new effective date.</p>
+</section>
+
+<hr>
+
+<section id="ko" lang="ko">
+<h1>DriveSync 개인정보 처리방침</h1>
+<p class="meta">시행일: 2026년 11월 18일 · 개발자: 이피소프트 · 문의: <a href="mailto:admin@epcompany.co.kr">admin@epcompany.co.kr</a></p>
+
+<p>DriveSync는 Microsoft OneDrive와 휴대폰 사이에서 파일을 옮겨 주는 Android 앱입니다. 이 방침은 앱이 무엇에 접근하고, 그 정보가 어디로 가며, 사용자가 무엇을 선택할 수 있는지 설명합니다. 요약하면 <strong>사용자의 파일과 Microsoft 계정 정보는 개발자에게 전송되지 않습니다.</strong> 개발자는 이 앱을 위한 서버를 운영하지 않습니다.</p>
+
+<h2>1. 앱이 접근하는 정보와 목적</h2>
+<table>
+<tr><th>정보</th><th>목적</th><th>전송·저장 위치</th></tr>
+<tr><td>Microsoft 계정 로그인(Microsoft의 로그인 라이브러리가 처리). 앱은 접근 토큰과 계정 이름·이메일 주소를 받습니다.</td><td>OneDrive에 연결하고, 연결된 계정을 화면에 표시하기 위해.</td><td>휴대폰에만 저장됩니다. 토큰은 사용자의 요청을 처리하기 위해 Microsoft(Microsoft Graph)에만 전송됩니다.</td></tr>
+<tr><td>OneDrive의 내용: 파일·폴더 이름, 크기, 날짜, 썸네일, 파일 내용, 저장 용량.</td><td>파일 목록 표시, 휴대폰으로 내려받기, 휴대폰 파일 올리기, 사본 검증, 검증 후 원본 삭제. 사용자가 이동을 시작한 경우에만 수행합니다.</td><td>휴대폰과 Microsoft 서버 사이에서 HTTPS로 직접 전송됩니다. 개발자나 다른 제3자에게 전송되지 않습니다.</td></tr>
+<tr><td>시스템 폴더 선택 화면에서 사용자가 고른 휴대폰 폴더의 파일.</td><td>OneDrive에서 옮긴 파일을 저장하거나, OneDrive로 옮기도록 요청한 파일을 올린 뒤 삭제하기 위해.</td><td>휴대폰에 남거나 사용자 본인의 OneDrive로 이동합니다.</td></tr>
+<tr><td>이동 기록(파일 이름, 크기, 상태, 시각)과 앱 설정.</td><td>진행 상황과 기록 표시, 중단된 이동 재개, 설정 기억.</td><td>휴대폰에만 저장됩니다.</td></tr>
+<tr><td>프리미엄 구매 여부.</td><td>프리미엄 기능 제공과 다른 기기에서의 구매 복원.</td><td>Google Play 결제가 처리합니다. 개발자는 결제 수단 정보를 받지 않습니다.</td></tr>
+</table>
+
+<h2>2. 광고 (무료 플랜)</h2>
+<p>무료 플랜에서는 Google AdMob이 제공하는 광고가 표시됩니다. 광고 제공과 측정을 위해 Google이 기기의 광고 ID, IP 주소(대략적인 위치를 알 수 있음), 기기·앱 정보, 광고 상호작용 정보를 수집·처리할 수 있습니다. 이는 Google의 정책에 따릅니다: <a href="https://policies.google.com/technologies/partner-sites?hl=ko">Google이 서비스를 사용하는 사이트 또는 앱의 정보를 이용하는 방법</a>, <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>.</p>
+<ul>
+<li>법으로 요구되는 지역(유럽경제지역, 영국, 스위스 등)에서는 맞춤 광고를 표시하기 전에 동의를 구하며, <em>설정 → 광고 개인정보 설정</em>에서 언제든지 선택을 바꿀 수 있습니다.</li>
+<li>Android 설정에서 광고 ID를 재설정·삭제하거나 맞춤 광고를 끌 수 있습니다.</li>
+<li>프리미엄을 구매하면 모든 광고가 사라지며 광고 SDK를 사용하지 않습니다.</li>
+</ul>
+<p>광고 SDK에는 사용자의 파일, 파일 이름, Microsoft 계정 정보가 전달되지 않습니다.</p>
+
+<h2>3. 개발자가 하지 않는 일</h2>
+<ul>
+<li>개발자가 운영하는 서버, 회원 가입, 분석 도구, 오류 보고 서비스를 사용하지 않습니다.</li>
+<li>사용자의 파일, 파일 이름, OneDrive 내용, Microsoft 계정 정보를 수집·판매·공유하지 않습니다.</li>
+</ul>
+
+<h2>4. 관련된 제3자</h2>
+<ul>
+<li><strong>Microsoft</strong> – OneDrive 저장소와 로그인 (<a href="https://privacy.microsoft.com/ko-kr/privacystatement">Microsoft 개인정보처리방침</a>).</li>
+<li><strong>Google</strong> – Google Play(배포·결제)와 Google AdMob(무료 플랜 광고).</li>
+</ul>
+
+<h2>5. 권한</h2>
+<ul>
+<li><strong>인터넷 / 네트워크 상태</strong> – OneDrive 통신과 광고 표시.</li>
+<li><strong>포그라운드 서비스(데이터 동기화)와 알림</strong> – 사용자가 시작한 이동을 계속 진행하고 진행 상황을 표시.</li>
+<li><strong>광고 ID</strong> – 무료 플랜의 광고 SDK가 사용.</li>
+<li><strong>결제</strong> – 선택 사항인 프리미엄 구매.</li>
+<li>앱은 저장소 전체 접근 권한을 요청하지 않습니다. 시스템 폴더 선택 화면에서 사용자가 고른 폴더에만 접근할 수 있습니다.</li>
+</ul>
+
+<h2>6. 보관과 삭제</h2>
+<ul>
+<li>앱에서 로그아웃하면 휴대폰에 저장된 로그인 정보가 삭제됩니다.</li>
+<li>앱을 삭제하거나 Android 설정에서 앱 데이터를 지우면 이동 기록과 설정이 삭제됩니다.</li>
+<li><a href="https://account.microsoft.com/privacy/app-access">account.microsoft.com/privacy/app-access</a>에서 언제든지 이 앱의 Microsoft 계정 접근 권한을 철회할 수 있습니다.</li>
+<li>이동으로 OneDrive에서 삭제된 파일은 OneDrive 휴지통으로 이동하며 Microsoft의 보관 규칙이 적용됩니다. 올린 뒤 휴대폰에서 삭제된 파일은 앱으로 복구할 수 없습니다.</li>
+</ul>
+<p>개발자는 사용자의 정보를 보유하지 않으므로 요청에 따라 삭제할 정보가 없습니다. 문의는 위 연락처로 보내 주세요.</p>
+
+<h2>7. 보안</h2>
+<p>Microsoft·Google과의 모든 통신은 HTTPS를 사용합니다. 원본은 사본이 검증(크기와 해시)된 뒤에만 삭제됩니다.</p>
+
+<h2>8. 아동</h2>
+<p>이 앱은 아동을 대상으로 하지 않으며 만 18세 이상 사용자를 위한 앱입니다.</p>
+
+<h2>9. 변경</h2>
+<p>방침이 바뀌면 새 시행일과 함께 이 페이지에 게시합니다.</p>
+</section>
+</main>
+</body>
+</html>
